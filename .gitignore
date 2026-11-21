@@ -1,8 +1,27 @@
+
+# Virtual environments
 .venv/
 .venv312/
+venv/
+env/
+
+# Python cache
 __pycache__/
 *.pyc
-*.db
-*.sqlite
-*.sqlite3
+*.pyo
+*.pyd
+
+# VS Code and operating system files
 .vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+.pytest_cache/
+
+# Build files
+build/
+dist/
+*.spec
